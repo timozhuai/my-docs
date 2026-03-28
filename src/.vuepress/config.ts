@@ -13,7 +13,7 @@ export default <UserConfig>defineUserConfig({
       "link",
       {
         rel: "mask-icon",
-        href: "/assets/safari-pinned-tab.svg",
+        href: "/favicon.ico",
         color: "#5c92d1",
       },
     ],
@@ -22,14 +22,8 @@ export default <UserConfig>defineUserConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "Mr.Hope",
-      description: "Where there is light, there is hope.",
-    },
-
-    "/en/": {
-      lang: "en-US",
-      title: "My name is Mr.Hope",
-      description: "Mr.Hope personal blog",
+      title: "Tmz",
+      description: "Tmz 的个人博客",
     },
   },
 
