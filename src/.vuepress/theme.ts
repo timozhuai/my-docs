@@ -28,8 +28,7 @@ export default hopeTheme(
     },
 
     displayFooter: true,
-    footer:
-      '<a href="/sitemap.xml">网站地图</a> | 豫ICP备2026003374号-1',
+    footer: '<a href="/sitemap.xml">网站地图</a> | 豫ICP备2026003374号-1',
     copyright: "Copyright © 2019-present Tmz",
 
     blog: {
@@ -48,8 +47,11 @@ export default hopeTheme(
       slimsearch: {},
       comment: {
         provider: "Waline",
-        serverURL: "https://pingliu-gtxocxdt5-timozhuais-projects.vercel.app/",
+        serverURL: "https://waline.mozhuai.site/",
         pageview: true,
+      },
+      components: {
+        components: ["VPCard"],
       },
     },
 
